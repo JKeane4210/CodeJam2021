@@ -10,3 +10,6 @@ add_executable(MoonsAndUmbrellas Qualifiers/MoonsAndUmbrellas.cpp)
 add_executable(ReversortEngineering Qualifiers/ReversortEngineering.cpp)
 add_executable(MedianSort Qualifiers/MedianSort.cpp)
 add_executable(PartAMedianSort Qualifiers/partAMedianSort.cpp)
+
+add_executable(AppendSort Round1A/appendSort.cpp)
+add_executable(PrimeTime Round1A/primeTime.cpp)
