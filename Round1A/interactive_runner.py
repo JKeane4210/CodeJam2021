@@ -41,6 +41,9 @@
 from __future__ import print_function
 import sys, subprocess, threading
 
+### EXAMPLE ON MY COMPUTER FOR WHAT TO RUN:
+### python3 interactive_runner.py python3 median_sort_local_testing_tool.py 0 -- ../cmake-build-debug/PartAMedianSort
+
 class SubprocessThread(threading.Thread):
   def __init__(self,
                args,
