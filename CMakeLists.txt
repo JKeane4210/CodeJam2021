@@ -15,3 +15,6 @@ add_executable(AppendSort Round1A/appendSort.cpp)
 add_executable(PrimeTime Round1A/primeTime.cpp)
 add_executable(BrokenClock Round1B/BrokenClock.cpp)
 add_executable(Subtransmutation Round1B/Subtransmutation.cpp)
+
+add_executable(ClosestPick Round1C/ClosestPick.cpp)
+add_executable(DoubleOrNoting Round1C/DoubleOrNoting.cpp)

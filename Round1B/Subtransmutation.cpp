@@ -39,13 +39,11 @@ void solve(int c) {
     int N, A, B;
     cin >> N >> A >> B;
     multiset<int> vals;
-    int max;
     for (int i = 1; i <= N; ++i) {
         int valCount;
         cin >> valCount;
         for (int j = 0; j < valCount; ++j) {
             vals.insert(i);
-            max += i;
         }
     }
     if (vals.size() == 1) {
@@ -53,7 +51,7 @@ void solve(int c) {
         return;
     }
     int test = N + 1;
-    while (test <= max) {
+    while (test <= 505) {
         priority_queue<int> pq;
         multiset<int> valsCopy(vals);
         pq.push(test);
